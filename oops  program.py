@@ -9,4 +9,8 @@ class Demo:
 class Person:
     def __init__(self, name):
         self.name = name
- #       
+ # 3 What is super():-->  Used to call parent class methods.
+
+class Child(Parent):
+    def __init__(self):
+        super().__init__()
